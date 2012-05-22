@@ -1,0 +1,13 @@
+How do I get this to work?
+==========================
+
+WARNING - these instructions assume you do not already have a .tmux directory or a .tmux.conf file.
+
+$ git clone https://Trevoke@github.com/Trevoke/.tmux.git ~/.tmux
+$ ln -sf .tmux/tmux.conf ~/.tmux.conf
+$ cd ~/.tmux
+$ git submodule init
+$ git submodule update
+
+Read the .tmux.conf for various comments on things I've set up.
+Read the plugin documentation to learn how they work.

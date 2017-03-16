@@ -3,7 +3,7 @@ How do I get this to work?
 
 WARNING - these instructions assume you do not already have a .tmux directory or a .tmux.conf file.
 
-$ git clone https://Trevoke@github.com/Trevoke/.tmux.git ~/.tmux
+$ git clone https://Trevoke@github.com/jjfine/.tmux.git ~/.tmux
 $ ln -sf .tmux/tmux.conf ~/.tmux.conf
 $ cd ~/.tmux
 $ git submodule init
